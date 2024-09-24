@@ -1,0 +1,11 @@
+<script>
+  const produto = Number(prompt('Qual o preco do seu produto? '))
+  const parcela = Number(prompt('Deseja parcelar em quantas vezes? '))
+  const desconto = produto * 0.9
+  const soma = (produto * 0.9) / parcela
+  alert(
+    `O seu produto com desconto ficara no preco de R$${desconto.toFixed(
+      2
+    )} e o preco de cada parcela ficara em R$${soma.toFixed(2)}`
+  )
+</script>
